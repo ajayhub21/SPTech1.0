@@ -4,7 +4,11 @@ import {
   CheckCircle,
   ArrowRight
 } from "lucide-react";
+import { useNavigate } from 'react-router-dom';
+
 function WhyScanSuccess() {
+  const navigate = useNavigate();
+
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-200">
   
@@ -84,7 +88,7 @@ function WhyScanSuccess() {
           <p className="text-lg sm:text-xl text-white/90 mb-8 sm:mb-12">
             Join thousands of satisfied clients who have transformed their document management with us.
           </p>
-          <button
+          <button onClick={() => navigate("/SPTech1.0/contact")}
             className="bg-white text-blue-600 hover:bg-blue-50 px-8 py-3 rounded-full transition-colors inline-flex items-center"
             aria-label="Get started with our document scanning services"
           >

@@ -36,9 +36,9 @@ export const AboutStory: React.FC = () => {
           <p className="text-base md:text-lg text-blue-100 mb-4">
             Today, we serve a diverse portfolio of clients, helping them transform how they manage and process information.
           </p>
-          <button className="mt-4 md:mt-6 px-4 md:px-6 py-2 rounded-full bg-blue-600 hover:bg-blue-700 text-white font-semibold transition duration-300 shadow-lg">
+          {/* <button className="mt-4 md:mt-6 px-4 md:px-6 py-2 rounded-full bg-blue-600 hover:bg-blue-700 text-white font-semibold transition duration-300 shadow-lg">
             Learn More
-          </button>
+          </button> */}
         </motion.div>
 
         {/* Image Section */}

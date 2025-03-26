@@ -8,6 +8,7 @@ import {
   Send,
   ArrowRight
 } from 'lucide-react';
+import { useNavigate } from 'react-router-dom';
 
 const steps = [
   {
@@ -43,6 +44,8 @@ const steps = [
 ];
 
 function Step() {
+  const navigate = useNavigate();
+
   return (
     <div className="min-h-screen bg-gray-800">
       {/* Hero Section */}
@@ -95,7 +98,7 @@ function Step() {
 
         {/* CTA Section */}
         <div className="mt-20 text-center">
-          <button className="inline-flex items-center px-8 py-4 bg-blue-600 text-white font-semibold rounded-lg shadow-md hover:bg-blue-700 transition-colors duration-300">
+          <button onClick={() => navigate("/SPTech1.0/contact")} className="inline-flex items-center px-8 py-4 bg-blue-600 text-white font-semibold rounded-lg shadow-md hover:bg-blue-700 transition-colors duration-300">
             Get Started Today
             <ArrowRight className="ml-2 w-5 h-5" />
           </button>

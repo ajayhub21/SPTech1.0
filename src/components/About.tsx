@@ -9,7 +9,9 @@ import {
   FileText,
   Database,
 } from "lucide-react";
+import { useNavigate } from 'react-router-dom';
 function About() {
+  const navigate = useNavigate();
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-200">
   
@@ -93,6 +95,7 @@ Our team's diverse skills and experience enable us to handle projects of any siz
             Join thousands of satisfied clients who have transformed their document management with us.
           </p>
           <button
+           onClick={() => navigate("/SPTech1.0/contact")}
             className="bg-white text-blue-600 hover:bg-blue-50 px-8 py-3 rounded-full transition-colors inline-flex items-center"
             aria-label="Get started with our document scanning services"
           >

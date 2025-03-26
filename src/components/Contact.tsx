@@ -63,7 +63,7 @@ const Contact = () => {
       {/* Contact Information */}
       <section className="py-16 px-6 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 max-w-7xl mx-auto">
         {[
-          { icon: <Phone className="w-8 h-8" />, title: "Phone", details: ["+91 9600600105", "9500501661"] },
+          { icon: <Phone className="w-8 h-8" />, title: "Phone", details: ["+91 9600600105", "+91 9500501661"] },
           { icon: <Mail className="w-8 h-8" />, title: "Email", details: ["yogarajsg@gmail.com","sptechnologies2012@gmail.com"] },
           { icon: <MapPin className="w-8 h-8" />, title: "Location", details: ["No-8/713,IndiraNagar,Saram,Tindivanam(tk) Villupuram (DT).Pincode-604307 "] },
           { icon: <Building2 className="w-8 h-8" />, title: "GST", details: ["33AGBPY7200R2ZX"] },

@@ -16,7 +16,7 @@ const Footer: React.FC = () => {
             <p className="text-sm mt-4 max-w-sm mx-auto lg:mx-0 text-gray-400">
               No: 4 NSK Nagar, RP Road, Hasthinapuram, Chrompet, Chennai-44
               <br />
-              <strong>Mobile:</strong> 9600600105
+              <strong>Mobile:</strong>+91 9600600105
             </p>
           </div>
 
@@ -26,11 +26,12 @@ const Footer: React.FC = () => {
             <div>
               <h2 className="font-extrabold text-lg mb-4 text-white">Company</h2>
               <ul className="space-y-2">
+             
                 <li>
-                  <a href="/Sp-Tech/services" className="hover:text-blue-400 transition">Services</a>
+                  <a href="/SPTech1.0/services" className="hover:text-blue-400 transition">Services</a>
                 </li>
                 <li>
-                  <a href="/Sp-Tech/about" className="hover:text-blue-400 transition">About Us</a>
+                  <a href="/SPTech1.0/about" className="hover:text-blue-400 transition">About Us</a>
                 </li>
               </ul>
             </div>
@@ -40,10 +41,10 @@ const Footer: React.FC = () => {
               <h2 className="font-extrabold text-lg mb-4 text-white">Resources</h2>
               <ul className="space-y-2">
                 <li>
-                  <a href="/SPTech/Blog" className="hover:text-blue-400 transition">Blogs & Case Studies</a>
+                  <a href="/SPTech1.0/what-we-scan" className="hover:text-blue-400 transition">What we scan</a>
                 </li>
                 <li>
-                  <a href="/SPTech/FAQ" className="hover:text-blue-400 transition">FAQs</a>
+                  <a href="/SPTech1.0/why-scanning" className="hover:text-blue-400 transition">Why Scanning</a>
                 </li>
               </ul>
             </div>
@@ -53,14 +54,12 @@ const Footer: React.FC = () => {
               <h2 className="font-extrabold text-lg mb-4 text-white">Legal</h2>
               <ul className="space-y-2">
                 <li>
-                  <a href="/SPTech/Privacy" className="hover:text-blue-400 transition">Privacy</a>
+                  <a href="/SPTech1.0/customers" className="hover:text-blue-400 transition">Customers</a>
                 </li>
                 <li>
-                  <a href="/SPTech/Terms" className="hover:text-blue-400 transition">Terms</a>
+                  <a href="/SPTech1.0/contact" className="hover:text-blue-400 transition">Contact</a>
                 </li>
-                <li>
-                  <button className="hover:text-blue-400 transition">Contact</button>
-                </li>
+               
               </ul>
             </div>
           </div>

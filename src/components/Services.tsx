@@ -14,7 +14,7 @@ import {
   Map, 
   Newspaper 
 } from 'lucide-react';
-
+import { useNavigate } from 'react-router-dom';
 interface ServiceCardProps {
   icon: React.ElementType;
   title: string;
@@ -23,6 +23,8 @@ interface ServiceCardProps {
 }
 
 const ServiceCard: React.FC<ServiceCardProps> = ({ icon: Icon, title, description, features }) => {
+  const navigate = useNavigate();
+
   return (
     <div className="bg-white/5 backdrop-blur-lg rounded-2xl p-8 transition-all duration-300 hover:transform hover:scale-[1.02] hover:bg-white/10">
       <div className="w-14 h-14 rounded-xl bg-blue-500/10 flex items-center justify-center mb-6">
@@ -38,10 +40,10 @@ const ServiceCard: React.FC<ServiceCardProps> = ({ icon: Icon, title, descriptio
           </li>
         ))}
       </ul>
-      <button className="group flex items-center text-blue-400 hover:text-blue-300 transition-colors duration-300">
+      {/* <button className="group flex items-center text-blue-400 hover:text-blue-300 transition-colors duration-300">
         Learn more
         <ArrowRight className="w-5 h-5 ml-2 transform group-hover:translate-x-1 transition-transform duration-300" />
-      </button>
+      </button> */}
     </div>
   );
 };
@@ -146,7 +148,7 @@ export const Services: React.FC = () => {
 
         {/* CTA Section */}
         <div className="mt-16 text-center">
-          <button className="bg-blue-600 text-white px-8 py-3 rounded-full font-semibold hover:bg-blue-700 transition-colors duration-300 flex items-center mx-auto">
+          <button onClick={() => navigate("/SPTech1.0/contact")} className="bg-blue-600 text-white px-8 py-3 rounded-full font-semibold hover:bg-blue-700 transition-colors duration-300 flex items-center mx-auto">
             Get Started Today
             <ArrowRight className="ml-2 h-5 w-5" />
           </button>
