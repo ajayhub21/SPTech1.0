@@ -8,14 +8,14 @@ export const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   const navItems = [
-    { name: "Home", path: "/Sp-Tech" },
-    { name: "Aboutus", path: "/Sp-Tech/about" },
-    { name: "Services", path: "/Sp-Tech/services" },
-    { name: "What We Scan", path: "/Sp-Tech/what-we-scan" },
-    { name: "Why Scanning", path: "/Sp-Tech/why-scanning" },
-    { name: "Customers", path: "/Sp-Tech/customers" },
-    { name: "Capacity", path: "/Sp-Tech/capacity" },
-    { name: "Contact", path: "/Sp-Tech/contact" },
+    { name: "Home", path: "/SPTech1.0" },
+    { name: "Aboutus", path: "/SPTech1.0/about" },
+    { name: "Services", path: "/SPTech1.0/services" },
+    { name: "What We Scan", path: "/SPTech1.0/what-we-scan" },
+    { name: "Why Scanning", path: "/SPTech1.0/why-scanning" },
+    { name: "Customers", path: "/SPTech1.0/customers" },
+    { name: "Capacity", path: "/SPTech1.0/capacity" },
+    { name: "Contact", path: "/SPTech1.0/contact" },
   ];
 
   useEffect(() => {

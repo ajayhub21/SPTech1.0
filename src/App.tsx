@@ -40,15 +40,15 @@ function App() {
       <div className="min-h-screen">
         <Navbar />
         <Routes>
-          <Route path="/Sp-Tech" element={<Home />} />
-            <Route path="/Sp-Tech/about" element={<AboutUs/>}/>  
+          <Route path="/SPTech1.0" element={<Home />} />
+            <Route path="/SPTech1.0/about" element={<AboutUs/>}/>  
          
-           <Route path="/Sp-Tech/services" element={<Services />} />
-            <Route path="/Sp-Tech/what-we-scan" element={<Scanning />} /> 
-          <Route path="/Sp-Tech/why-scanning" element={<WhyScanning />} />
-          <Route path="/Sp-Tech/customers" element={<Customers />} />
-          <Route path="/Sp-Tech/capacity" element={<Capacity />} />
-          <Route path="/Sp-Tech/contact" element={<ContactPage />} /> 
+           <Route path="/SPTech1.0/services" element={<Services />} />
+            <Route path="/SPTech1.0/what-we-scan" element={<Scanning />} /> 
+          <Route path="/SPTech1.0/why-scanning" element={<WhyScanning />} />
+          <Route path="/SPTech1.0/customers" element={<Customers />} />
+          <Route path="/SPTech1.0/capacity" element={<Capacity />} />
+          <Route path="/SPTech1.0/contact" element={<ContactPage />} /> 
         </Routes>
         <Footer />
       </div>
